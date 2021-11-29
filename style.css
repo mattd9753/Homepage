@@ -1,0 +1,40 @@
+html, body {
+    background-color: #161B22;
+    font-family: 'Arial', monospace;
+    color: #f1f1f1;
+}
+
+.container {
+    display: grid;
+    grid-gap: 25px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    }
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.header{
+    margin-left: 5%;
+}
+
+.time{
+    font-size: 25px;
+}
+
+.stuff {
+    background: crimson;
+    padding: 25px;
+    width: -moz-available;
+
+}
